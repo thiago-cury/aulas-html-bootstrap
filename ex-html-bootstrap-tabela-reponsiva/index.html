@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Exemplo Tabela Responsiva - Boostrap</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Bootstrap +
+		     JQuery (necessário para os plugins de Javascript do Bootstrap) -->
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- CSS padrão da página -->
+		<link href="css/estilo.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<!-- container ou container-fluid -->
+		<div class="container">
+				<header class="row">
+		     <h1>Página exemplo - Thiago Cury</h1>
+		  	</header>
+
+		   	<div class="row">
+		       <div role="main">
+		           <!-- exemplo tabela responsiva -->
+							 <div class="table-responsive">
+									<table class="table table-striped table-hover table-condensed">
+										<caption>Exemplo tabela clientes</caption>
+										<thead>
+											<tr>
+												<th>Nome</th>
+												<th>Sobrenome</th>
+												<th>Email</th>
+											</tr>
+										</thead>
+
+										<tbody>
+											<tr>
+												<td>Thiago</td>
+												<td>Cury</td>
+												<td>thiagocury@gmail.com</td>
+											</tr>
+
+											<tr>
+												<td>Ze</td>
+												<td>da Silva Souza</td>
+												<td>zedasilvasouza@gmail.com</td>
+											</tr>
+
+											<tr>
+												<td>Maria</td>
+												<td>da Silva</td>
+												<td>mariadasilva@gmail.com</td>
+											</tr>
+
+											<tr>
+												<td>João</td>
+												<td>da Silva Medeiros</td>
+												<td>joaodasilvamedeiros@gmail.com</td>
+											</tr>
+										</tbody>
+									</table>
+						 	 </div> <!-- div encerramento table-->
+		       </div>
+		   	</div>
+
+		   	<footer class="row">
+		    	<p>Boilerplate desenvolvido por Thiago Cury</p>
+		   	</footer>
+		</div>
+	</body>
+</html>
