@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Boilerplate - Bootstrap Layout 3</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Bootstrap +
+		     JQuery (necessário para os plugins de Javascript do Bootstrap) -->
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- CSS padrão da página -->
+		<link href="css/estilo.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<!-- container ou container-fluid -->
+		<div class="container">
+				<header class="row">
+		     <h1>Página exemplo - Thiago Cury</h1>
+		  	</header>
+
+				<div class="row">
+
+						<nav class="col-md-2">
+							<!-- conteudo na esquerda -->
+					  	<p>Esquerda</p>
+						</nav>
+
+		        <div role="main" class="col-md-8">
+							<!-- conteudo principal -->
+							<p>Aqui inserimos o conteúdo principal da página.</p>
+		        </div>
+
+		        <aside role="complementary" class="col-md-2">
+							<!-- conteudo na direita -->
+							<p>Direita.</p>
+		        </aside>
+		   	</div>
+
+		   	<footer class="row">
+		    	<p>Boilerplate desenvolvido por Thiago Cury</p>
+		   	</footer>
+		</div>
+	</body>
+</html>
