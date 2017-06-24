@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Exemplo Formulário - Boostrap</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Bootstrap +
+		     JQuery (necessário para os plugins de Javascript do Bootstrap) -->
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- CSS padrão da página -->
+		<link href="css/estilo.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<!-- container ou container-fluid -->
+		<div class="container">
+				<header class="row">
+		     <h1>Página exemplo - Thiago Cury</h1>
+		  	</header>
+
+		   	<div class="row">
+		       <div role="main">
+		           <!-- exemplo formulário -->
+							 <form action="#" method="post">
+									<div class="form-group">
+										<input type="text" placeholder="login" class="form-control">
+									</div>
+
+									<div class="form-group">
+										<input type="password" placeholder="senha" class="form-control">
+									</div>
+
+									<div class="form-group">
+										<input type="submit" value="Enviar" class="btn btn-primary">
+										<input type="reset" value="Cancelar" class="btn btn-danger">
+									</div>
+							 	</form>
+		       </div>
+		   	</div>
+
+		   	<footer class="row">
+		    	<p>Boilerplate desenvolvido por Thiago Cury</p>
+		   	</footer>
+		</div>
+	</body>
+</html>
